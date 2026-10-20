@@ -1,27 +1,30 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 
-// Update these paths and filenames to match your existing images.
+import vintageCake from '../../assets/images/vintage-cake.webp'
+import cinnamonRolls from '../../assets/images/cinnamon-rolls.webp'
+import moneyBouquet from '../../assets/images/money-bouquet.webp'
+
 const collections = [
     {
         title: 'Cakes',
         description: 'Beautifully crafted cakes for your sweetest celebrations.',
-        image: '/assets/images/vintage-cake.webp',
+        image: vintageCake,
         alt: 'A beautifully decorated celebration cake',
         accent: 'bg-[#F0414A]',
     },
     {
         title: 'Pastries',
         description: 'Deliciously baked treats for every craving and occasion.',
-        image: '/assets/images/cinnamon-rolls.webp',
-        alt: 'Freshly baked pastries',
+        image: cinnamonRolls,
+        alt: 'Freshly baked cinnamon rolls',
         accent: 'bg-[#D4A72C]',
     },
     {
         title: 'Money Bouquet',
-        description: 'Beutifully crafted money boquet for your events and suprises.',
-        image: '/assets/images/money-bouquet.webp',
-        alt: 'A selection of tasty small chops',
+        description: 'Beautifully crafted money bouquets for your events and surprises.',
+        image: moneyBouquet,
+        alt: 'A beautiful money bouquet gift',
         accent: 'bg-[#4A1D0C]',
     },
 ]
@@ -46,8 +49,8 @@ const collections = [
 
                 <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-[#6F5143] sm:text-base">
                     Discover your next favourite treat. From unforgettable cakes to
-                    delicious pastries all party perfect and affordable , there's something
-                    for every occasion at Jodiez Delight.
+                    delicious pastries, all party-perfect and affordable, there's
+                    something for every occasion at Jodiez Delight.
                 </p>
             </div>
 
@@ -87,8 +90,10 @@ const collections = [
                     </div>
                 </article>
             </div>
+
+            <!-- Bottom CTA -->
             <div class="mt-10 text-center sm:mt-14">
-                <RouterLink to="/explore" target="_blank"
+                <RouterLink to="/explore"
                     class="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#4A1D0C] px-7 py-3 text-sm font-bold text-white transition duration-300 hover:bg-[#F0414A] sm:text-base">
                     Discover all our treats
                     <span class="material-symbols-outlined" aria-hidden="true">
