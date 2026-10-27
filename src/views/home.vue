@@ -5,10 +5,10 @@
     <main>
       <Hero />
       <Collections />
-      <!-- <About /> -->
+      <About />
+      <!-- <CTA /> -->
       <!-- <Testimonials /> -->
       <!-- <HowItWorks /> -->
-      <!-- <CTA /> -->
     </main>
 
     <Footer />
@@ -19,8 +19,8 @@
 import Header from '@/components/navbar.vue'
 import Hero from '@/components/hero.vue'
 import Collections from '@/components/collections.vue'
-// import About from '@/components/About.vue'
+import About from '@/components/about.vue'
+// import CTA from '@/components/CTA.vue'
 // import Testimonials from '@/components/Testimonials.vue'
 // import HowItWorks from '@/components/HowItWorks.vue'
-// import CTA from '@/components/CTA.vue'
 </script>
