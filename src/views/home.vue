@@ -6,9 +6,8 @@
       <Hero />
       <Collections />
       <About />
+      <Testimonial />
       <CTA />
-      <!-- <Testimonials /> -->
-      <!-- <HowItWorks /> -->
     </main>
 
     <Footer />
@@ -20,7 +19,7 @@ import Header from '@/components/navbar.vue'
 import Hero from '@/components/hero.vue'
 import Collections from '@/components/collections.vue'
 import About from '@/components/about.vue'
+import Testimonial from '@/components/testimonial.vue'
 import CTA from '@/components/CTA.vue'
-// import Testimonials from '@/components/Testimonials.vue'
-// import HowItWorks from '@/components/HowItWorks.vue'
+import Footer from '@/components/footer.vue'
 </script>
