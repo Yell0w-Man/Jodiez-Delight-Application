@@ -1,7 +1,12 @@
+<script setup>
+import Header from '@/components/navbar.vue'
+import ExploreHero from '@/components/explore/exploreHero.vue'
+</script>
 
 <template>
+  <Header />
+
   <main>
-    <h1>Explore Jodiez Delight</h1>
-    <p>Discover our cakes, pastries, and small chops.</p>
+    <ExploreHero />
   </main>
 </template>

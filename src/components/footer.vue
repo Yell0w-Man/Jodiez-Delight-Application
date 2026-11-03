@@ -6,7 +6,7 @@ const ownerImage = ref(null)
 
 // Update this path to match the owner's actual photo filename.
 // Keep the photo inside assets/images.
-import ownerPhoto from '../../assets/images/owner-photo.jpg'
+// import ownerPhoto from '../../assets/images/owner-photo.jpg'
 
 const year = 2027
 
@@ -100,11 +100,11 @@ const socialLinks = [
                         <!-- Owner introduction -->
                         <div class="flex flex-col gap-5 sm:flex-row sm:items-center">
                             <div class="flex shrink-0 items-center gap-4">
-                                <div
+                                <!-- <div
                                     class="h-20 w-20 overflow-hidden rounded-full border-[4px] border-[#FFF8F1] bg-[#FFF8F1] shadow-md sm:h-24 sm:w-24">
                                     <img :src="ownerPhoto" alt="Owner of Jodiez Delight"
                                         class="h-full w-full object-cover" loading="lazy" />
-                                </div>
+                                </div> -->
 
                                 <div class="max-w-xs">
                                     <p class="font-bold leading-snug">
