@@ -5,7 +5,7 @@ import heroImage from '../../../assets/images/chocolate-cake.webp'
 const WHATSAPP_NUMBER = '2349130519189'
 
 const whatsappMessage = encodeURIComponent(
-    "Hello Jodiez Delight, I'd like to make an enquiry about your products."
+    "Hello Jodiez Delight, I'd like to place an order on your product."
 )
 
 const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
@@ -22,11 +22,9 @@ const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
                     class="mb-6 inline-flex items-center gap-2 rounded-full border border-[#D4A72C]/40 bg-[#D4A72C]/10 px-4 py-2">
                     <span class="h-2 w-2 rounded-full bg-[#F0414A]"></span>
                     <span class="text-xs font-bold uppercase tracking-[0.18em] text-[#4A1D0C]">
-                        Welcome to Jodiez Delight
+                        Baked with love
                     </span>
                 </div>
-
-                <!-- Main Heading -->
                 <h1
                     class="font-['Bowlby_One'] text-4xl leading-tight text-[#4A1D0C] sm:text-5xl lg:text-6xl xl:text-7xl">
                     Explore Our

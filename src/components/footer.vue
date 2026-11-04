@@ -196,6 +196,9 @@ const socialLinks = [
                             EST. 2027
                         </span>
                     </div>
+                    <div class="flex justify-center lg:justify-end">
+                        <p>Location: Mowe, Ogun State</p>
+                    </div>
                 </div>
             </div>
         </div>

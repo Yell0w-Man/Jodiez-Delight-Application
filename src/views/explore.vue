@@ -1,6 +1,7 @@
 <script setup>
 import Header from '@/components/navbar.vue'
 import ExploreHero from '@/components/explore/exploreHero.vue'
+import productGrid from '@/components/explore/productGrid.vue';
 </script>
 
 <template>
@@ -8,5 +9,6 @@ import ExploreHero from '@/components/explore/exploreHero.vue'
 
   <main>
     <ExploreHero />
+    <productGrid />
   </main>
 </template>

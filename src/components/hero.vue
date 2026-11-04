@@ -16,7 +16,7 @@ const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(m
                 <span
                     class="mb-5 inline-flex items-center gap-2 rounded-full bg-[#F8E9DF] px-4 py-2 text-xs font-bold uppercase tracking-[0.15em] text-[#4A1D0C] sm:text-sm">
                     <span class="h-2 w-2 rounded-full bg-[#F0414A]"></span>
-                    Baked with love
+                    Welcome to Jodiez delight
                 </span>
 
                 <h1
@@ -40,7 +40,7 @@ const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(m
                         </span>
                     </a>
 
-                    <a href="#explore"
+                    <a href="/explore"
                         class="inline-flex min-h-12 items-center gap-2 rounded-full px-3 py-3 text-sm font-bold text-[#4A1D0C] transition hover:text-[#F0414A] sm:text-base">
                         Explore our treats
                         <span class="material-symbols-outlined" aria-hidden="true">
