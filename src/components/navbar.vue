@@ -1,16 +1,15 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
+import { getWhatsAppUrl } from '@/utils/whatsapp.js'
+
 import logoImg from '../../assets/images/jodiez-delight-logo.webp'
 
 const route = useRoute()
 
-const WHATSAPP_NUMBER = '2349130519189'
-const WHATSAPP_MESSAGE =
-  "Hello Jodiez Delight, I'd like to make an enquiry about your products."
-
-const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
-
+const whatsappUrl = getWhatsAppUrl(
+  "Hello Jodiez Delight! I'd like to make an enquiry and place an order."
+)
 const isMenuOpen = ref(false)
 
 const closeMenu = () => {
@@ -22,6 +21,7 @@ const navLinks = [
   { label: 'Explore More', to: '/explore' },
 ]
 </script>
+
 
 <template>
   <header class="fixed inset-x-0 top-0 z-50 border-b border-[#4A1D0C]/10 bg-[#FFF8F1]/95 shadow-sm backdrop-blur-md"

@@ -6,7 +6,11 @@ import meatPies from '../../../assets/images/meat-pies.webp'
 import Cookies from '../../../assets/images/cookies.webp'
 import pastries from '../../../assets/images/pastries.webp'
 
-const WHATSAPP_NUMBER = '2349130519189'
+import { getWhatsAppUrl } from '@/utils/whatsapp.js'
+
+const whatsappUrl = getWhatsAppUrl(
+    "Hello Jodiez Delight! I'd like to make an enquiry and place an order."
+)
 
 const products = [
     {
@@ -16,7 +20,7 @@ const products = [
     },
     {
         id: 2,
-        name: 'Cinnamon Rolls',
+        name: 'Small Chops',
         image: cinnamonRolls,
     },
     {
@@ -26,7 +30,7 @@ const products = [
     },
     {
         id: 4,
-        name: 'Meat pie',
+        name: 'Treats',
         image: meatPies,
     },
     {
@@ -41,11 +45,6 @@ const products = [
     },
 ]
 
-const whatsappMessage = encodeURIComponent(
-    "Hello Jodiez Delight! I'd like to make an enquiry and place an order."
-)
-
-const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
 </script>
 
 <template>

@@ -1,9 +1,10 @@
+<!-- eslint-disable no-unused-vars -->
 <script setup>
-const whatsappNumber = '2349130519189'
+import { getWhatsAppUrl } from '@/utils/whatsapp.js'
 
-const message = "Hello Jodiez Delight, I'd like to place an order."
-
-const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+const whatsappLink = getWhatsAppUrl(
+    "Hello Jodiez Delight, I'd like to make an enquiry about your products."
+)
 </script>
 
 <template>

@@ -2,13 +2,12 @@
 <script setup>
 import heroImage from '../../../assets/images/chocolate-cake.webp'
 
-const WHATSAPP_NUMBER = '2349130519189'
+import { getWhatsAppUrl } from '@/utils/whatsapp.js'
 
-const whatsappMessage = encodeURIComponent(
-    "Hello Jodiez Delight, I'd like to place an order on your product."
+const whatsappLink = getWhatsAppUrl(
+    "Hello Jodiez Delight, I'd like to make an enquiry about your products."
 )
 
-const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
 </script>
 
 <template>
