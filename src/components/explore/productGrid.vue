@@ -1,6 +1,6 @@
 <script setup>
 import cinnamonRolls from '../../../assets/images/cinnamon-rolls.webp'
-import chocolateCake from '../../../assets/images/chocolate-cake.webp'
+import cupcakes from '../../../assets/images/cupcake.webp'
 import moneyBouquet from '../../../assets/images/naira-bouquet.webp'
 import meatPies from '../../../assets/images/meat-pies.webp'
 import Cookies from '../../../assets/images/cookies.webp'
@@ -15,8 +15,8 @@ const whatsappUrl = getWhatsAppUrl(
 const products = [
     {
         id: 1,
-        name: 'Chocolate Cake',
-        image: chocolateCake,
+        name: 'cupcake',
+        image: cupcakes,
     },
     {
         id: 2,
