@@ -34,35 +34,6 @@ Git| Version control
 GitHub| Source code management
 Vercel| Application deployment
 
-Project Structure
-
-Jodiez-Delight-Application/
-│
-├── assets/
-│   └── images/
-│
-├── src/
-│   ├── components/
-│   │   ├── explore/
-│   │   └── ...
-│   │
-│   ├── views/
-│   │   ├── home.vue
-│   │   └── explore.vue
-│   │
-│   ├── router/
-│   │   └── index.js
-│   │
-│   ├── utils/
-│   │   └── whatsapp.js
-│   │
-│   ├── App.vue
-│   └── main.js
-│
-├── index.html
-├── package.json
-└── README.md
-
 Installation and Setup
 
 Prerequisites
