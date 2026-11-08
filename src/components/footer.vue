@@ -46,18 +46,8 @@ const socialLinks = [
     {
         name: 'Instagram',
         icon: 'photo_camera',
-        url: 'https://www.instagram.com/',
-    },
-    {
-        name: 'Facebook',
-        icon: 'thumb_up',
-        url: 'https://www.facebook.com/',
-    },
-    {
-        name: 'TikTok',
-        icon: 'music_note',
-        url: 'https://www.tiktok.com/',
-    },
+        url: 'https://www.instagram.com/johannan6717'
+    }
 ]
 </script>
 
