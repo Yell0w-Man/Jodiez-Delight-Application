@@ -2,7 +2,7 @@
 <script setup>
 import { getWhatsAppUrl } from '@/utils/whatsapp.js'
 
-const whatsappLink = getWhatsAppUrl(
+const whatsappUrl = getWhatsAppUrl(
     "Hello Jodiez Delight, I'd like to make an enquiry about your products."
 )
 </script>
@@ -35,7 +35,7 @@ const whatsappLink = getWhatsAppUrl(
                 <div class="mt-8 flex flex-wrap items-center gap-4">
                     <a :href="whatsappUrl" target="_blank" rel="noopener noreferrer"
                         class="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#F0414A] px-6 py-3 text-sm font-bold text-white shadow-md transition duration-300 hover:-translate-y-1 hover:bg-[#D92F38] hover:shadow-lg sm:px-8 sm:text-base">
-                        <span>Order on WhatsApp</span>
+                        Order on WhatsApp
                         <span class="material-symbols-outlined" aria-hidden="true">
                             arrow_forward
                         </span>
