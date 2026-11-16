@@ -48,7 +48,7 @@ const products = [
 </script>
 
 <template>
-    <section class="w-full bg-[#FFF8F1] px-5 py-16 sm:px-8 sm:py-20 lg:px-12">
+    <section class="w-full bg-[#FFF8F1] px-5 py-16 sm:px-8 sm:py-20 lg:px-12" id="collections">
         <div class="mx-auto max-w-7xl">
 
             <!-- Section Heading -->
